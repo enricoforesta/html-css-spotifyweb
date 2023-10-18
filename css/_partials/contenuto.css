@@ -1,0 +1,23 @@
+/* HEADER */
+nav.menu-nav a{
+    display: block;
+}
+
+nav.menu-nav{
+    background-color: black;
+    color: var(--color-text-grey);
+    padding: 20px;
+    flex-direction: column;
+    width: 14.0625rem;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.installa{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+/* /HEADER */

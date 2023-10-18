@@ -1,0 +1,10 @@
+@media screen and (max-width: 574px) {
+    nav.menu-nav span,
+    nav.menu-nav .playlist{
+        display: none;
+    }
+
+    nav.menu-nav{
+        width: 50px;
+    }
+}
