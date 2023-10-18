@@ -5,7 +5,8 @@
 }
 
 body{
-    line-height: 2;
+    line-height: 2.5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contenitore{

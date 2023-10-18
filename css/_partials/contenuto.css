@@ -10,9 +10,22 @@ nav.menu-nav {
     flex-direction: column;
     width: 14.0625rem;
     height: 100vh;
+    /*CALCOLARE ALTEZZA FOOTER */
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 1;
+}
+
+nav.menu-nav img {
+    vertical-align: bottom;
+    width: 34px;
+}
+
+nav.menu-nav i {
+    font-size: 34px;
+    vertical-align: bottom;
+    padding-right: 10px;
 }
 
 .installa {
@@ -27,6 +40,9 @@ nav.menu-nav {
     background-color: var(--bg-main-fix);
     width: 100%;
     text-align: end;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 button {
@@ -41,3 +57,24 @@ button {
 }
 
 /* /UPGRADE */
+
+/* CONTENUTI */
+.contenuti {
+    background-color: var(--main-color);
+    height: 100vh;
+    /*CALCOLARE ALTEZZA FOOTER */
+    padding-top: 82px;
+}
+
+.menu-contenuti {
+    color: var(--color-text-grey);
+    text-align: center;
+    font-size: 10px;
+}
+
+.menu-contenuti a {
+    padding: 25px;
+    line-height: 7;
+}
+
+/* /CONTENUTI */
