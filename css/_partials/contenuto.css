@@ -1,9 +1,9 @@
-/* HEADER */
-nav.menu-nav a{
+/* NAV COLONNA-SX */
+nav.menu-nav a {
     display: block;
 }
 
-nav.menu-nav{
+nav.menu-nav {
     background-color: black;
     color: var(--color-text-grey);
     padding: 20px;
@@ -15,9 +15,29 @@ nav.menu-nav{
     top: 0;
 }
 
-.installa{
+.installa {
     position: absolute;
     bottom: 0;
     left: 20px;
 }
-/* /HEADER */
+
+/* /NAV COLONNA-SX */
+/* UPGRADE */
+.upgrade {
+    background-color: var(--bg-main-fix);
+    width: 100%;
+    text-align: end;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 40px;
+    margin: 20px 30px;
+    font-size: 10px;
+    border-radius: 510px;
+}
+
+/* /UPGRADE */
