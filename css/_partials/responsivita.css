@@ -1,11 +1,31 @@
 @media screen and (max-width: 574px) {
     nav.menu-nav span,
-    nav.menu-nav .playlist{
+    nav.menu-nav .playlist,
+    nav.menu-nav .installa h3,
+    hr{
         display: none;
     }
 
     nav.menu-nav{
-        width: 50px;
+        width: 65px;
+    }
+
+    nav.menu-nav .home{
+        flex-grow: 1;
+    }
+
+    nav.menu-nav .installa img.profile{
+        margin-top: 20px;    
+    }
+    
+    nav.menu-nav .only-desktop{
+        display: none;
+    }
+
+    nav.menu-nav .only-mobile{
+        display: inline;
+        opacity: 1;
+        margin-bottom: 20px;
     }
     .contenitore{
         margin-left: 50px;

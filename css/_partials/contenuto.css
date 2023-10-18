@@ -5,7 +5,7 @@ nav.menu-nav a {
 
 nav.menu-nav {
     background-color: black;
-    color: var(--color-text-grey);
+    color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     flex-direction: column;
     width: 14.0625rem;
@@ -17,23 +17,48 @@ nav.menu-nav {
     z-index: 1;
 }
 
+nav.menu-nav .logo .only-desktop{
+    width: 150px;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
 nav.menu-nav img {
-    vertical-align: bottom;
+    vertical-align: middle;
     width: 34px;
+    opacity: 0.5;
+    margin-right: 10px;
 }
 
 nav.menu-nav i {
-    font-size: 34px;
-    vertical-align: bottom;
-    padding-right: 10px;
+    font-size: 55px;
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
-.installa {
-    position: absolute;
-    bottom: 0;
-    left: 20px;
+nav.menu-nav .installa{
+    font-size: 12px;
 }
 
+nav.menu-nav .installa img{
+    width: 25px;
+}
+
+nav.menu-nav .installa img.profile{
+    opacity: 1;
+    background-color: grey;
+    border-radius: 50px;
+    width: 30px;
+}
+
+nav.menu-nav .installa h3{
+    display: inline;
+}
+
+.playlist{
+    overflow-y:auto ;
+    flex-grow: 1;
+}
 /* /NAV COLONNA-SX */
 /* UPGRADE */
 .upgrade {
@@ -73,7 +98,7 @@ button {
 }
 
 .menu-contenuti a {
-    padding: 25px;
+    padding: 20px;
     line-height: 7;
 }
 

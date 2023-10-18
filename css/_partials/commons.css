@@ -1,23 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     line-height: 2.5;
     font-family: 'Montserrat', sans-serif;
 }
 
-.contenitore{
+.contenitore {
     margin-left: 225px;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-a{
+.only-mobile{
+    display: none;
+}
+
+a {
     text-decoration: none;
     color: currentColor;
+}
+
+hr {
+    opacity: 0.5;
+    margin: 15px 0;
+}
+
+nav.menu-nav .installa h3 {
+    color: white;
 }
