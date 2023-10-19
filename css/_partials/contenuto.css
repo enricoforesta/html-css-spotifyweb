@@ -107,8 +107,17 @@ button {
 .brani {
     margin: 0 20px;
 }
+.brani h2{
+    color: white;
+}
+
+.brani h3{
+    font-size: 11px;
+    margin-bottom: 30px;
+}
 
 .box-brani {
+    width: calc((100% - 55px) / 6);
     line-height: 2;
 }
 
@@ -126,12 +135,8 @@ button {
 }
 
 .artista-brani h2 {
-    color: white;
     font-size: 12px;
 }
 
-.artista-brani h3 {
-    font-size: 11px;
-}
 
 /* /BRANI */
