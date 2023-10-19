@@ -1,4 +1,41 @@
-@media screen and (max-width: 574px) {
+@media screen and (max-width: 1400px){
+    .contenitore{
+        max-width: 1320px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .contenitore{
+        max-width: 720px;
+    }
+  .box-brani{
+        width: calc((100% - 55px) / 4);
+    }  
+    .recenti{
+        flex-wrap: wrap;
+    }
+    .menu-contenuti a{
+        padding: 11px;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .contenitore{
+        max-width: 540px;
+    }
+
+    .box-brani{
+        width: calc((100% - 55px) / 2);
+    }
+}
+
+@media screen and (max-width: 575px) {
     nav.menu-nav span,
     nav.menu-nav .playlist,
     nav.menu-nav .installa h3,
@@ -10,9 +47,6 @@
         width: 65px;
     }
 
-    nav.menu-nav .home{
-        flex-grow: 1;
-    }
 
     nav.menu-nav .installa img.profile{
         margin-top: 20px;    
