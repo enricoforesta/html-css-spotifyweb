@@ -106,13 +106,11 @@ button {
 /* BRANI */
 .brani {
     margin: 0 20px;
-}
-.brani h2{
-    color: white;
+    padding-bottom: 50px;
 }
 
-.brani h3{
-    font-size: 11px;
+
+.brani h3 {
     margin-bottom: 30px;
 }
 
@@ -125,10 +123,6 @@ button {
     gap: 15px;
 }
 
-.box-brani img {
-    width: 100%;
-}
-
 .artista-brani {
     text-align: center;
     width: 100%;
@@ -138,5 +132,84 @@ button {
     font-size: 12px;
 }
 
+.popolari img {
+    border-radius: 50%;
+}
 
 /* /BRANI */
+
+footer {
+    background-color: var(--footer-color);
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 1.2;
+    align-items: center;
+}
+
+footer .player {
+    padding: 0 10px;
+    justify-content: space-between;
+    height: 90px;
+}
+
+footer ul h2 {
+    font-size: 13px;
+}
+
+footer .player-left .img-player {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+footer .player-left .icona-player {
+    margin: 0 40px;
+    word-spacing: 10px;
+    color: var(--color-text-grey);
+}
+
+footer .player-center {
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .player-center ul.flex{
+    gap: 25px;
+    margin: 10px
+
+}
+
+
+footer .player-center .fa-regular.fa-circle-play {
+    font-size: 30px;
+}
+
+footer .time-center {
+    width: 430px;
+    display: inline-block;
+    border: 2px solid var(--bg-space);
+    border-radius: 2px;
+    margin: 0 20px;
+    
+    
+}
+
+
+footer .player-right li {
+    margin: 0 15px;
+}
+
+.volume-right {
+    width: 120px;
+    border: 2px solid var(--bg-space);
+    border-radius: 2px;
+}
