@@ -1,0 +1,32 @@
+
+.menu-nav a:hover,
+footer a:hover,
+main .menu-contenuti a:hover{
+color: white;
+}
+
+.menu-nav a:hover img{
+    opacity: 1;
+}
+
+
+footer .fa-regular.fa-circle-play:hover{
+    font-size: 35px;
+}
+
+
+main .brani .img-brani:hover img{
+    opacity: 0.3;
+}
+
+main .brani .img-brani:hover i{
+    display: inline;
+}
+
+main .upgrade button:hover{
+    scale: 1.2;
+    margin: 20px 45px;
+}
+
+
+
