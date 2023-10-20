@@ -185,7 +185,7 @@
     <footer>
         <div class="player flex">
             <!-- PARTE SINISTRA -->
-            <ul class="flex player-left">
+            <ul class="flex box player-left">
                 <li class="img-player">
                     <img src="img/player_left.jpg" alt="COPERTINA BRANO">
                 </li>
@@ -200,7 +200,7 @@
             </ul>
             <!-- /PARTE SINISTRA -->
             <!-- PARTE CENTRALE -->
-            <div class="flex player-center">
+            <div class="flex box player-center">
                 <ul class="flex">
                     <li><i class="fa-solid fa-shuffle"></i></li>
                     <li><i class="fa-solid fa-backward-step"></i></li>
@@ -208,17 +208,18 @@
                     <li><i class="fa-solid fa-forward-step"></i></li>
                     <li><i class="fa-solid fa-rotate-right"></i></li>
                 </ul>
-                 <!-- <ul>
-                    <li>0:25<span class="time-center"></span>4:35</li>
-                </ul> -->
+                <div class="durata flex">0:25<div  class="bar"></div>4:35</div>
             </div>
             <!-- /PARTE CENTRALE -->
             <!-- PARTE DESTRA -->
-            <ul class="flex player-right">
+            <ul class="flex box player-right">
                 <li><i class="fa-solid fa-list-ul"></i></i></li>
                 <li><i class="fa-solid fa-desktop"></i></i></li>
                 <li><i class="fa-solid fa-volume-high"></i></li>
-                <li class="volume-right"></li>
+                <!-- <li class="volume-right"></li> -->
+                <li class="sound">
+                    <div class="bar"></div>
+                </li>
             </ul>
             <!-- /PARTE DESTRA -->
         </div>

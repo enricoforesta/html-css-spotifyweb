@@ -63,6 +63,11 @@ nav.menu-nav .installa h3 {
 nav.menu-nav .playlist {
     font-size: 13px;
 }
+nav.menu-nav .playlist h3{
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}
 
 nav.menu-nav .nome-playlist{
     overflow-y: auto;
@@ -140,6 +145,7 @@ button {
 
 /* /BRANI */
 
+/* FOOTER */
 footer {
     background-color: var(--footer-color);
     width: 100%;
@@ -148,6 +154,10 @@ footer {
     bottom: 0;
     left: 0;
     color: white;
+}
+
+.box{
+    width: calc(100% / 3);
 }
 
 footer ul {
@@ -161,8 +171,9 @@ footer .player {
     justify-content: space-between;
     height: 90px;
 }
+/* FOOTER-LEFT */
 
-footer ul h2 {
+footer .player-left h2 {
     font-size: 13px;
 }
 
@@ -177,10 +188,13 @@ footer .player-left .icona-player {
     word-spacing: 10px;
     color: var(--color-text-grey);
 }
+/* /FOOTER-LEFT */
+/* FOOTER-CENTER */
 
 footer .player-center {
     flex-direction: column;
     align-items: center;
+    flex-grow: 1;
 }
 
 footer .player-center ul.flex{
@@ -194,27 +208,39 @@ footer .player-center .fa-regular.fa-circle-play {
     font-size: 30px;
 }
 
+footer .player-center .durata{
+    width: 100%;
+}
+
+footer .player-center .durata .bar{
+    margin: 0 15px;
+}
+
 footer .time-center {
     width: 430px;
     display: inline-block;
     border: 2px solid var(--bg-space);
     border-radius: 2px;
     margin: 0 20px;
-    
-    
+}
+/* /FOOTER-CENTER */
+/* FOOTER-RIGHT */
+footer .player-right{
+    justify-content: flex-end;
+    gap: 15px;
 }
 
-
-footer .player-right li {
-    margin: 0 15px;
+footer .player-right .sound{
+    width: 100px;
 }
 
-.volume-right {
-    width: 120px;
-    border: 2px solid var(--bg-space);
-    border-radius: 2px;
+.bar{
+    width: 100%;
+    height: 2px;
+    background-color: var(--bg-space);
+    align-self: center;
 }
 
-
-
+/* FOOTER-RIGHT */
+/* FOOTER */
 
