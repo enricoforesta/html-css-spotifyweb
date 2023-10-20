@@ -61,10 +61,12 @@ nav.menu-nav .installa h3 {
 }
 
 nav.menu-nav .playlist {
-    overflow-y: auto;
     font-size: 13px;
 }
 
+nav.menu-nav .nome-playlist{
+    overflow-y: auto;
+}
 /* /NAV COLONNA-SX */
 /* UPGRADE */
 .upgrade {
@@ -177,7 +179,6 @@ footer .player-left .icona-player {
 }
 
 footer .player-center {
-    flex-grow: 1;
     flex-direction: column;
     align-items: center;
 }
@@ -213,3 +214,7 @@ footer .player-right li {
     border: 2px solid var(--bg-space);
     border-radius: 2px;
 }
+
+
+
+

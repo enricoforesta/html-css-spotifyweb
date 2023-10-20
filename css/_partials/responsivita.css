@@ -1,15 +1,5 @@
-@media screen and (max-width: 1400px) {
-    .contenitore {
-        max-width: 1320px;
-    }
-}
 
-
-@media screen and (max-width: 768px) {
-    .contenitore {
-        max-width: 720px;
-    }
-
+@media screen and (max-width: 992px) {
     .box-brani {
         width: calc((100% - 55px) / 4);
     }
@@ -24,11 +14,7 @@
 }
 
 
-@media screen and (max-width: 576px) {
-    .contenitore {
-        max-width: 540px;
-    }
-
+@media screen and (max-width: 768px) {
     .box-brani {
         width: calc((100% - 55px) / 2);
     }
@@ -38,6 +24,7 @@
 
     nav.menu-nav span,
     nav.menu-nav .playlist,
+    nav.menu-nav .nome-playlist,
     nav.menu-nav .installa h3,
     hr {
         display: none;
