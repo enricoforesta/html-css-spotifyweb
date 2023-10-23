@@ -15,11 +15,11 @@ footer .fa-regular.fa-circle-play:hover{
 }
 
 
-main .brani .img-brani:hover img{
+main .brani .box-brani:hover img{
     opacity: 0.3;
 }
 
-main .brani .img-brani:hover i{
+main .brani .box-brani:hover i{
     display: inline;
 }
 
